@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Counter from './Counter'
 import ParentComponent from './ParentComponent'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <ParentComponent />
+      <Counter />
     </>
   )
 }
