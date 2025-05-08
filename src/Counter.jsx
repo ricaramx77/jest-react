@@ -10,7 +10,7 @@ const Counter = () => {
 
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
-      <p>Count:{count}</p>
+      <p>Count: {count}</p>
       <button onClick={setIncrement}>Increment</button>
     </div>
   );
